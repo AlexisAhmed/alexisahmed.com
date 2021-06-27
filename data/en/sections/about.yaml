@@ -1,0 +1,63 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Penetration Tester & Cyber Security Instructor
+# your company information
+company:
+  name: HackerSploit Cybersecurity LLC
+  url: "https://hackersploit.io"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "https://www.linkedin.com/in/alexisahmed/"
+
+# a summary about you
+summary: 'I am a highly motivated young IT professional with over 6 years of experience in Penetration Testing and Information Security. I am well versed in securing enterprise networks, Linux servers and cloud infrastructure for companies and large organizations. I am also a content creator and cyber security instructor at :https://youtube.com/HackerSploit with more than 500,000 subscribers'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/AlexisAhmed/"
+
+- name: YouTube
+  icon: "fab fa-youtube"
+  url: "https://youtube.com/HackerSploit"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/HackerSploit"
+
+
+
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Pentesting
+  percentage: 95
+  color: blue
+- name: Cloud Security
+  percentage: 95
+  color: orange
+- name: RE
+  percentage: 80
+  color: pink
+- name: Linux
+  percentage: 95
+  color: green
+- name: DevOps
+  percentage: 85
+  color: blue
+- name: DevSecOps
+  percentage: 90
+  color: blue
+
