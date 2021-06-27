@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Courses
+  filter: "courses"
+- name: Research
+  filter: "research"
+- name: Projects
+  filter: "projects"
+- name: Interviews
+  filter: "interviews"
+- name: Conferences
+  filter: "conferences"
+
+
+# your projects
+projects:
+- name: Ethical Hacking Bootcamp
+  logo: images/academy.png
+  role: Instructor
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.udemy.com/course/the-complete-ethical-hacking-bootcamp/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Learn hands-on ethical hacking, penetration testing, web app pentesting and Python scripting. 
+  tags: ["courses"]
+
+
+- name: Penetration Testing Bootcamp
+  logo: images/academy.png
+  role: Instructor
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.udemy.com/course/the-complete-ethical-hacking-masterclass/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Learn Penetration Testing The Right Way! Learn All The Ethical Hacking & Penetration Testing Techniques Used By Hackers. 
+  tags: ["courses"]
+
+- name: Linux Server Security Series
+  logo: images/linode.png
+  role: Instructor
+  timeline: "Oct 2020 - Dec 2020"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.linode.com/blog/linode/hackersploit/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: This webinar series is for anyone who wants to learn how to effectively secure their servers, regardless of their function (web servers, mail servers, etc). 
+  tags: ["courses"]
+
+
+- name: Securing Web Apps & Databases
+  logo: images/linode.png
+  role: Instructor
+  timeline: "Jan 2021 - Mar 2021"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.linode.com/event/securing-commonly-used-apps/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: This series works as a practical guide for anyone that wants to learn how to effectively secure commonly used and deployed apps like PHPMyAdmin, Docker, Apache2, and databases.
+  tags: ["courses"]
+
+
+- name: Windows Penetration Testing Essentials
+  logo: images/EC-Council.png
+  role: Instructor
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://codered.eccouncil.org/course/windows-penetration-testing-essentials"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: https://codered.eccouncil.org/course/windows-penetration-testing-essentials
+  tags: ["courses"]
+
