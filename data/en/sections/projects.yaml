@@ -14,8 +14,8 @@ buttons:
   filter: "all"
 - name: Courses
   filter: "courses"
-- name: Research
-  filter: "research"
+#- name: Research
+#  filter: "research"
 - name: Projects
   filter: "projects"
 - name: Interviews
@@ -71,6 +71,45 @@ projects:
 #  timeline: "March 2018 - Present"
 #  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://codered.eccouncil.org/course/windows-penetration-testing-essentials"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: https://codered.eccouncil.org/course/windows-penetration-testing-essentials
+  summary: In this course, you will learn the essentials of windows penetration testing from performing information gathering and service enumeration to exploitation and privilege escalation. 
   tags: ["courses"]
+
+
+- name: BugBountyToolkit
+  logo: images/github.png
+  role: Lead Developer
+#  timeline: "March 2018 - Present"
+  repo: https://github.com/AlexisAhmed/BugBountyToolkit # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://github.com/AlexisAhmed/BugBountyToolkit"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A multiplatform bug bounty toolkit that can be installed on Debian/Ubuntu or setup with Docker.
+  tags: ["projects"]
+
+- name: Getting into Cybersecurity with Alexis
+  logo: images/youtube.png
+  role: Co-host
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=UuQ7AzRMuqw"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Getting started in Infosec.
+  tags: ["interviews"]
+
+
+- name: Hackersploit Talks Linux and Server Security | Craft of Code
+  logo: images/youtube.png
+  role: Co-host
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=BmTj90IcOL0"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Discussion regarding Linux server security.
+  tags: ["interviews"]
+
+
+- name: Docker for Pentesting and Bug Bounty @ DC9111 SAFE MODE by Alexis Ahmed | DEF CON Delhi Group
+  logo: images/defcon.png
+  role: Presenter
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=03nkNUt9bsE"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Docker for pentesting and bug bounty hunting.
+  tags: ["conferences"]
 
