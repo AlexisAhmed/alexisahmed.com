@@ -104,6 +104,28 @@ projects:
   tags: ["interviews"]
 
 
+- name: TFIR: What Is Linode Doing To Strengthen Cybersecurity Of Its Users
+  logo: images/youtube.png
+  role: Co-host
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=U90B8vQ8odw"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: In this edition of Let’s Talk, we hosted Alexis Ahmed to talk about this partnership and its scope.
+  tags: ["interviews"]
+
+
+- name: Get Cybersecurity Skills QUICKLY (2 Resources You Need Now)
+  logo: images/youtube.png
+  role: Co-host
+#  timeline: "March 2018 - Present"
+#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=xYfx2K0bpVk"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: In this video, we are interviewing Alexis Ahmed, aka Hackersploit on how to get offensive cybersecurity skills quickly with hackthebox. 
+
+  tags: ["interviews"]
+
+
+
 - name: Docker for Pentesting and Bug Bounty @ DC9111 SAFE MODE by Alexis Ahmed | DEF CON Delhi Group
   logo: images/defcon.png
   role: Presenter
